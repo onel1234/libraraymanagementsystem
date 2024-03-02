@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:"C:\Users\USER\Desktop\librarymanagementsystem\my-app23\public\libaray background.jpg" ;/* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+h1 {
+    color: #333;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.feature {
+    width: 250px;
+    padding: 20px;
+    margin: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+    color: #333;
+}
+
+.feature p {
+    color: #666;
+}
+
+body {
+    background-image: url('background.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-logo {
+    width: 50px; 
+    margin-right: 10px;
+}
